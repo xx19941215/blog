@@ -6,8 +6,8 @@
                 @include('setting.particals.sidebar')
             </div>
             <div class="col-md-8">
-                    <div class="panel">
-                        <div class="panel-heading">
+                <div class="panel">
+                    <div class="panel-heading">
                         <span>{{ Auth::user()->unreadNotifications->count() }}</span>
                         {{ lang('New Notification') }}
                         <a class="pull-right mark-as-read" href="#"
