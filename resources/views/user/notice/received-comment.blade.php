@@ -15,7 +15,6 @@ if ($comment) {
             break;
     }
 }
-
 ?>
 <div class="col-sm-12">
     @if ($comment)
